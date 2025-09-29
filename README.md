@@ -29,7 +29,7 @@ Use este checklist para acompanhar seu progresso durante a implementação da AP
 - [X] Fork do repositório tutorial realizado
 - [X] Repositório clonado localmente
 - [X] NestJS CLI instalado globalmente (`npm install -g @nestjs/cli`)
-- [ ] Projeto NestJS criado (`nest new tasks-api`)
+- [X] Projeto NestJS criado (`nest new tasks-api`)
 - [ ] Dependências instaladas (TypeORM, SQLite, class-validator, etc.)
 
 ## 🗂️ Estrutura do Projeto
