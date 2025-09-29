@@ -35,8 +35,8 @@ Use este checklist para acompanhar seu progresso durante a implementação da AP
 ## 🗂️ Estrutura do Projeto
 
 ### Criação de Diretórios
-- [ ] Diretório `src/tasks` criado
-- [ ] Diretório `src/tasks/dto` criado
+- [X] Diretório `src/tasks` criado
+- [X] Diretório `src/tasks/dto` criado
 - [ ] Estrutura de pastas organizada conforme especificação
 
 ### Arquivos Base
