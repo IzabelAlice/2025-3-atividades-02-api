@@ -40,9 +40,9 @@ Use este checklist para acompanhar seu progresso durante a implementação da AP
 - [X] Estrutura de pastas organizada conforme especificação
 
 ### Arquivos Base
-- [ ] `app.module.ts` configurado com TypeORM
-- [ ] `main.ts` configurado com CORS e ValidationPipe
-- [ ] Configuração do banco SQLite implementada
+- [X] `app.module.ts` configurado com TypeORM
+- [X] `main.ts` configurado com CORS e ValidationPipe
+- [X] Configuração do banco SQLite implementada
 
 ## 📊 Implementação da Entity
 
