@@ -37,7 +37,7 @@ Use este checklist para acompanhar seu progresso durante a implementação da AP
 ### Criação de Diretórios
 - [X] Diretório `src/tasks` criado
 - [X] Diretório `src/tasks/dto` criado
-- [ ] Estrutura de pastas organizada conforme especificação
+- [X] Estrutura de pastas organizada conforme especificação
 
 ### Arquivos Base
 - [ ] `app.module.ts` configurado com TypeORM

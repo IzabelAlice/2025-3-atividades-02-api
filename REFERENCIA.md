@@ -16,7 +16,7 @@ npm install @nestjs/typeorm typeorm sqlite3 class-validator class-transformer
 # Iniciar em modo desenvolvimento
 npm run start:dev
 ```
-
+GET http://localhost:3000
 ### Comandos de Desenvolvimento
 ```bash
 # Desenvolvimento com hot reload
