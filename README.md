@@ -47,59 +47,59 @@ Use este checklist para acompanhar seu progresso durante a implementação da AP
 ## 📊 Implementação da Entity
 
 ### Task Entity (src/tasks/task.entity.ts)
-- [ ] Classe `Task` criada com decorator `@Entity()`
-- [ ] Campo `id` com `@PrimaryGeneratedColumn()`
-- [ ] Campo `title` com `@Column()`
-- [ ] Campo `description` com `@Column()`
-- [ ] Campo `status` com enum `TaskStatus` e configuração adequada
-- [ ] Campos `createdAt` e `updatedAt` com decorators de timestamp
-- [ ] Enum `TaskStatus` definido corretamente (aberto, fazendo, finalizado)
+- [X] Classe `Task` criada com decorator `@Entity()`
+- [X] Campo `id` com `@PrimaryGeneratedColumn()`
+- [X] Campo `title` com `@Column()`
+- [X] Campo `description` com `@Column()`
+- [X] Campo `status` com enum `TaskStatus` e configuração adequada
+- [X] Campos `createdAt` e `updatedAt` com decorators de timestamp
+- [X] Enum `TaskStatus` definido corretamente (aberto, fazendo, finalizado)
 
 ## 📝 Implementação dos DTOs
 
 ### CreateTaskDto (src/tasks/dto/create-task.dto.ts)
-- [ ] Classe `CreateTaskDto` criada
-- [ ] Validação `@IsString()` e `@IsNotEmpty()` no campo `title`
-- [ ] Validação `@IsString()` e `@IsNotEmpty()` no campo `description`
-- [ ] Validação `@IsEnum()` e `@IsOptional()` no campo `status`
+- [X] Classe `CreateTaskDto` criada
+- [X] Validação `@IsString()` e `@IsNotEmpty()` no campo `title`
+- [X] Validação `@IsString()` e `@IsNotEmpty()` no campo `description`
+- [X] Validação `@IsEnum()` e `@IsOptional()` no campo `status`
 
 ### UpdateTaskDto (src/tasks/dto/update-task.dto.ts)
-- [ ] Classe `UpdateTaskDto` criada
-- [ ] Todos os campos opcionais com `@IsOptional()`
-- [ ] Validações adequadas mantidas para cada campo
+- [X] Classe `UpdateTaskDto` criada
+- [X] Todos os campos opcionais com `@IsOptional()`
+- [X] Validações adequadas mantidas para cada campo
 
 ## 🔧 Implementação do Service
 
 ### TasksService (src/tasks/tasks.service.ts)
-- [ ] Classe `TasksService` com decorator `@Injectable()`
-- [ ] Injeção do repositório com `@InjectRepository(Task)`
-- [ ] Método `findAll()` implementado
-- [ ] Método `findOne(id)` implementado com tratamento de erro 404
-- [ ] Método `create(createTaskDto)` implementado
-- [ ] Método `update(id, updateTaskDto)` implementado
-- [ ] Método `remove(id)` implementado
-- [ ] Tratamento adequado de erros em todos os métodos
+- [X] Classe `TasksService` com decorator `@Injectable()`
+- [X] Injeção do repositório com `@InjectRepository(Task)`
+- [X] Método `findAll()` implementado
+- [X] Método `findOne(id)` implementado com tratamento de erro 404
+- [X] Método `create(createTaskDto)` implementado
+- [X] Método `update(id, updateTaskDto)` implementado
+- [X] Método `remove(id)` implementado
+- [X] Tratamento adequado de erros em todos os métodos
 
 ## 🎮 Implementação do Controller
 
 ### TasksController (src/tasks/tasks.controller.ts)
-- [ ] Classe `TasksController` com decorator `@Controller('tasks')`
-- [ ] Injeção do service no construtor
-- [ ] Endpoint `GET /tasks` com decorator `@Get()`
-- [ ] Endpoint `GET /tasks/:id` com `@Get(':id')` e `ParseIntPipe`
-- [ ] Endpoint `POST /tasks` com `@Post()` e `@Body()`
-- [ ] Endpoint `PUT /tasks/:id` com `@Put(':id')` e validações
-- [ ] Endpoint `DELETE /tasks/:id` com `@Delete(':id')`
-- [ ] Status codes HTTP adequados configurados
+- [X] Classe `TasksController` com decorator `@Controller('tasks')`
+- [X] Injeção do service no construtor
+- [X] Endpoint `GET /tasks` com decorator `@Get()`
+- [X] Endpoint `GET /tasks/:id` com `@Get(':id')` e `ParseIntPipe`
+- [X] Endpoint `POST /tasks` com `@Post()` e `@Body()`
+- [X] Endpoint `PUT /tasks/:id` com `@Put(':id')` e validações
+- [X] Endpoint `DELETE /tasks/:id` com `@Delete(':id')`
+- [X] Status codes HTTP adequados configurados
 
 ## 📦 Configuração do Module
 
 ### TasksModule (src/tasks/tasks.module.ts)
-- [ ] Classe `TasksModule` com decorator `@Module()`
-- [ ] Importação do `TypeOrmModule.forFeature([Task])`
-- [ ] Controller adicionado ao array `controllers`
-- [ ] Service adicionado ao array `providers`
-- [ ] Módulo importado no `AppModule`
+- [X] Classe `TasksModule` com decorator `@Module()`
+- [X] Importação do `TypeOrmModule.forFeature([Task])`
+- [X] Controller adicionado ao array `controllers`
+- [X] Service adicionado ao array `providers`
+- [X] Módulo importado no `AppModule`
 
 ## 🚀 Execução e Testes
 
