@@ -101,6 +101,10 @@ Use este checklist para acompanhar seu progresso durante a implementação da AP
 - [X] Service adicionado ao array `providers`
 - [X] Módulo importado no `AppModule`
 
+GET http://localhost:3000/tasks/
+
+funcionou
+
 ## 🚀 Execução e Testes
 
 ### Inicialização da Aplicação

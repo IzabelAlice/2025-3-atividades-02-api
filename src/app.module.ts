@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { TasksModule } from './tasks/tasks.module';
 
 @Module({
   imports: [TypeOrmModule.forRoot({
@@ -9,7 +10,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       database: 'tasks.db',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true, // Apenas para desenvolvimento
-    })
+    }), 
+    TasksModule
   ],
   controllers: [AppController],
   providers: [AppService],
