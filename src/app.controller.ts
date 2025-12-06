@@ -9,4 +9,13 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  @Get('info')
+  getInfo() {
+    return {
+      status: 'online',
+      version: '1.0.0',
+      description: 'Esta é API de tarefas (todos) da turma de Infoweb 2025.',
+    };
+  }
 }
